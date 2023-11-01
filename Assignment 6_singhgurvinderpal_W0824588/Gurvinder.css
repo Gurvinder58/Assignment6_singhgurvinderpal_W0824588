@@ -1,0 +1,67 @@
+body {
+    font-family: Italic;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 21px;
+    color: white;
+    text-align: center;
+    background-color: #07090a; 
+    
+}
+@media (max-width: 600px) {
+    body {
+        background-color: #65c665; 
+    }
+form {
+    margin: 21px;
+}
+
+.form-group {
+    margin-bottom: 21px;
+}
+
+label {
+    font-size: 20px; 
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; 
+    padding: 12px;
+    font-size: 33px; 
+}
+
+#checkbox {
+    width: auto; 
+}
+}
+
+/* Media query for tablet and desktop screens */
+@media (min-width: 601px) {
+    body {
+        background-color: #c4d337; 
+    }
+
+    .form-row {
+        display: flex;
+    }
+
+    label {
+        font-size: 30px; 
+        text-align: left;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 100%;
+    }
+}
+
